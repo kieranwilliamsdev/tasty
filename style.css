@@ -1,0 +1,93 @@
+:root {
+    --accent: #F0D8d8;
+    --maintext: #666;
+    font-family: 'Tai Heritage Pro', serif;
+  }
+
+#body {
+    font-family: 'Tai Heritage Pro', serif;
+}
+
+.header {
+    background-color: var(--accent);
+    height: 4vh;
+}
+
+.navigation {
+    border-width: 2px;
+    border-top: thin solid;
+    border-bottom: thin solid;
+    border-color: var(--accent);
+    padding: 2px;
+}
+
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    font-family: 'Tai Heritage Pro', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--maintext);
+}
+
+.navigation a {
+text-decoration: none;
+color: var(--maintext);
+}
+
+.navigation li {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.navigation li:hover {
+    color:black;
+}
+
+.titleimage {
+    display:flex;
+    justify-content: center;
+}
+
+.titleimage img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cpic {
+    padding: 5px;
+
+}
+
+.cpic img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sidepanel img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.main {
+    font-family: 'Tai Heritage Pro', serif;
+    color: var(--maintext);
+    border-width: 2px;
+    border-top: thin solid;
+    border-bottom: thin solid;
+
+    border-color: var(--accent);
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
